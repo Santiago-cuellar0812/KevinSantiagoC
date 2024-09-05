@@ -17,6 +17,10 @@
     margin: 0px;
 }
 
+body {
+    background: url("../img/pattern.png");
+}
+
 .blue {
     color: blue;
 }
@@ -97,16 +101,52 @@
     transform: scale(1.2, 1.2);
 }
 
+#contenedor_t {
+    width: 100%;
+    padding: 50px;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
 .caja {
     float: left;
     width: 205px;
-    height: 305px;
+    height: 240px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
+    background: white;
     overflow: hidden;
     margin: 20px;
     margin-top: 40px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 150ms;
 
+}
+
+.caja:hover {
+
+    background: #ccc;
+    transform: scale(1.1, 1.1);
+
+}
+
+.caja a {
+    text-decoration: none;
+
+}
+
+.caja a:hover {
+    color: rgb(8, 29, 22);
+
+}
+
+.caja h2 {
+    text-align: center;
+}
+
+.caja p {
+    padding-top: 15px;
 }
 
 
