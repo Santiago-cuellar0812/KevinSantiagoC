@@ -113,7 +113,8 @@ body {
     width: 205px;
     height: 240px;
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 2px #ddd;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 6px;
     background: white;
     overflow: hidden;
     margin: 20px;
@@ -148,24 +149,104 @@ body {
 .caja p {
     padding-top: 15px;
 }
-#general{
-width: 100%;
-padding: 40px;
+
+#general {
+    width: 100%;
+    padding: 40px;
 
 
 }
-.personal{
+
+.personal {
+    display: block;
     margin: 22px;
-    width: 1250px;
+    width: 1230px;
     border: 1px solid #ccc;
+    padding: 8px;
+    padding-right: 11px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
 }
-#inicio{
+
+#inicio {
     margin-left: 25px;
     font-size: 24px;
-    
+
 }
 
+.separada {
+    margin-top: 60px;
 
+}
+
+#footer {
+    width: 100%;
+    height: 470px;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+#footer .centra-f>div {
+    float: left;
+    width: 25%;
+    height: 370px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+.aa {
+    text-decoration: none;
+    color: #17a2e2;
+    transition: all 300ms;
+}
+
+#footer h5 {
+    display: block;
+    background-color: white;
+    height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "BEBAS";
+    font-size: 40px;
+    line-height: 55px;
+    color: black;
+    border-radius: 5px;
+}
+#footer ul{
+    text-align: left;
+    margin:20px;
+    font-size: 25px;
+}
+footer ul li{
+margin-top: 10px;
+padding: 5px;
+border-bottom: 1px solid #ccc;
+}
+footer ul li:hover{
+    color: aquamarine;
+    transform: scale(1.1,1.1);
+    }
+#footer iframe {
+    height: 250px;
+    width: 100%;
+margin-top: 10px;
+border-radius: 5px;
+border: 5px solid white;
+box-shadow: 0px 0px 5px gray;
+}
+#footer p{
+    
+    font-size: 35px;
+}
+
+.ppp{
+    font-size: 10px;
+}
 
 
 
