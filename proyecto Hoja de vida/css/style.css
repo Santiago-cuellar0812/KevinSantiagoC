@@ -17,10 +17,14 @@
     margin: 0px;
 }
 
+.blue {
+    color: blue;
+}
+
 #header {
     width: 100%;
     min-width: 1024px;
-  
+
     height: 80px;
     margin: 0px auto;
     background-color: black;
@@ -75,18 +79,221 @@
     display: inline-block;
     font-size: 24px;
     padding-top: 40px;
-    
+
     letter-spacing: 1px;
     line-height: 0px;
 }
 
 #menu ul li a {
-  display: block;
+    display: block;
     color: white;
     margin: 0px 20px 0px 20px;
     text-decoration: none;
     transition: all 200ms;
-}#menu ul li a:hover {
+}
+
+#menu ul li a:hover {
     color: aquamarine;
     transform: scale(1.2, 1.2);
 }
+
+.caja {
+    float: left;
+    width: 205px;
+    height: 305px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lo estaba haciendo en un principio de esa manera pero no me termino de gustar lo deje aqui abajo por si me volvia a surgir la idea de hacerlo de esta manera */
+/* 
+#perfil {
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+#perfil #vista {
+ float: right;
+    ;
+}
+
+#perfil #vista img {
+
+    float: left;
+    margin: px auto;
+    margin-bottom: 5px;
+    display: block;
+    height: 300px;
+    width: 19%;
+    padding-left: 100px;
+
+
+}
+
+#perfil #vista #Descripcion {
+    display: block;
+    border: 1px solid #ccc;
+    list-style: armenian;
+ 
+    width: 72%;
+    float: right;
+    padding: 5px;
+}
+
+#perfil #vista #Descripcion h3 {
+    display: block;
+
+    padding-left: 2px;
+    width: 17%;
+    font-size: 30px;
+    text-shadow: 0px 0px 4px #ccc;
+
+}
+
+#perfil #vista #Descripcion h3:hover {
+    color: gray;
+
+}
+
+#perfil #vista h4 {
+    float: left;
+    padding-left: 98px;
+} */
