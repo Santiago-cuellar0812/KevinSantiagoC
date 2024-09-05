@@ -148,7 +148,22 @@ body {
 .caja p {
     padding-top: 15px;
 }
+#general{
+width: 100%;
+padding: 40px;
 
+
+}
+.personal{
+    margin: 22px;
+    width: 1250px;
+    border: 1px solid #ccc;
+}
+#inicio{
+    margin-left: 25px;
+    font-size: 24px;
+    
+}
 
 
 
